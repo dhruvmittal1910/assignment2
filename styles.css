@@ -1,0 +1,108 @@
+.container{width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+}
+.leftContainer{
+    width: 50%;
+
+}
+.thumb{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20%;
+    margin-left: 15%;
+    position: inherit;
+}
+.thumb a{
+    width: 100%;
+}
+.thumb img{
+    width: 80%;
+    
+}
+.imgBox{
+    width: 70%;
+    margin-left: 20%;
+    height: 60%;
+    text-align: center;
+}
+.imgBox img{
+    width: 100%;
+}
+
+.rightContainer{
+    width: 50%;
+    
+    text-align: left;
+    
+}
+.rightContainer .para1{
+    text-align: justify;
+    width: 35%;
+}
+.rightContainer .para2{
+    width: 45%;
+    text-align: justify;
+}
+.rightContainer .checked{
+    color: #00D19B;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.buttons .btn1 button{
+    background-color: black;
+
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttons .btn2 button{
+    background-color: white;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 20px;
+  cursor: pointer;
+}
+footer{
+    padding-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.footer1{
+    width: 33%;
+    text-align: center;
+    /* box-shadow: 1px 1px lightgray; */
+}
+.footer2{
+    width: 33%;
+    text-align: center;
+    /* box-shadow: 1px 1px lightgray; */
+}
+
+.footer3{
+    width: 33%;
+    text-align: center;
+    /* box-shadow: 1px 1px lightgray; */
+}
+@media (max-width:600px){
+    
+    .container{
+        flex-direction: column;
+    }
+}
